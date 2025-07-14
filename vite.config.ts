@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/yuvaraj-portfolio/" : "/", // ✅ Local works in dev
+  base: "/", // ✅ For Netlify use "/"
   server: {
     host: "localhost",
     port: 8080,
